@@ -1,0 +1,94 @@
+*,*:after,*:before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: Verdana;
+    font-size: 16px;
+    margin: 0;
+    background: linear-gradient(to right top,#000);
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 100vh;
+    background-color: #000;       
+}
+.question_box{
+    width: 500px;
+    padding: 20px;
+    min-height: 100px;
+    background-color: #fff;
+    box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 0px;
+    box-shadow: 0px 0px 15px 1px #8492C2;
+}
+.question_header{
+    background-color: #0C1559;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    margin: -20px -20px 20px;   
+    font-size: 14px;
+}
+.question_set{
+    display: none;
+}
+.question_set.active{
+    display: block;
+}
+.question_set h4{
+    margin: 0 0 15px;
+    font-size: 20px;
+}
+.question_answer_row{
+    position: relative;
+    margin-bottom: 10px;
+}
+.question_answer_row input{
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    cursor: pointer;
+}
+.question_answer_row span{
+    display: block;
+    padding: 8px 15px;
+    background-color: #bad0c9;
+    border-radius: 15px;
+    transition: all 0.3s ease-out;
+}
+.question_answer_row:hover span{
+    background-color: #9ab5ac;
+}
+.question_answer_row input:checked + span{
+    background-color: #f93c3c;
+}
+.question_answer_row input[valid]:checked + span{
+    background-color: green;
+    color: #fff;
+}
+.question_footer{
+    padding: 10px 0 0;
+    text-align: right;    
+}
+.btn{
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #4E5180;
+    color: #fff;
+    border-radius: 200px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    font-size: 14px;
+}
+.btn:hover{
+    background-color: #064484;
+}
