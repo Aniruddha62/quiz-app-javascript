@@ -8,8 +8,6 @@ The application presents a series of questions, tracks time elapsed, allows user
 
 The goal of this project was to practice DOM manipulation, event handling, and logical flow control using pure JavaScript.
 
----
-
 ## Features
 
 - Start screen before quiz begins
@@ -19,15 +17,11 @@ The goal of this project was to practice DOM manipulation, event handling, and l
 - Score calculation at the end
 - Simple and responsive UI
 
----
-
 ## Tech Stack
 
 - HTML
 - CSS
 - JavaScript (Vanilla JS)
-
----
 
 ## How It Works
 
@@ -36,8 +30,6 @@ The goal of this project was to practice DOM manipulation, event handling, and l
 3. User selects answers and navigates using the Next button.
 4. Timer runs during the quiz.
 5. Final score is calculated and displayed at the end.
-
----
 
 ## Learning Outcome
 
@@ -49,8 +41,6 @@ While building this project, I focused on:
 - Calculating and displaying quiz scores
 - Managing DOM updates efficiently
 
----
-
 ## Future Improvements
 
 - Add previous button navigation
@@ -59,8 +49,6 @@ While building this project, I focused on:
 - Improve UI design
 - Add category-based quizzes
 
----
+## 👨‍💻 Author
 
-## Author
-
-ANIRUDDHA BHATTACHARYYA
+**ANIRUDDHA BHATTACHARYYA**
